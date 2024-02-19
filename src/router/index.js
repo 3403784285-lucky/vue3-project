@@ -15,6 +15,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
+      //主分支修改
       component: () => import('../views/AboutView.vue')
     }
   ]
